@@ -48,6 +48,7 @@ function Page() {
     <form ref={form} onSubmit={handleSubmit} className="max-w-md mx-auto bg-orange-600 p-8 rounded-md shadow-md text-black">
       <h1 className="text-3xl font-bold mb-6">Account Delete Form</h1>
 
+      <p className="text-xl font-bold mb-3 text-red-500"> All of your data including email will be deleted within 3 days </p>
       <label className="block mb-4">
         Name:
         <input
